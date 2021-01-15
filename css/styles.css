@@ -1,0 +1,102 @@
+/*************************************Tag Selectors*************************************/
+body{
+  margin: 0px;
+  text-align: center;
+  font-family: 'Indie+Flower', cursive;
+  font-size: 1em;
+}
+
+h1{
+  margin: 20px auto 10px auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  color: #3B5360;
+}
+h2{
+    font-family: 'Oxygen', cursive;
+    color: #3B5360;
+}
+h3{
+    font-family: 'Oxygen', cursive;
+    color: #8b5e83;
+}
+a{
+      font-family: 'Oxygen', cursive;
+    color: #8b5e83;
+}
+
+div{
+  position:relative;
+}
+
+/*************************************Class Selectors*************************************/
+.Top_Container{
+  background-color: #BEE5D3;
+  padding-top: 100px;
+  height: 645px; 
+}
+
+.middle-container{
+  padding-top: 10px;
+}
+.Top_inside{
+  margin: auto;
+  position: static;
+  left: 300px;
+  width: 600px;
+  height: 600px;
+}
+.bottom-container{
+  padding-bottom: 1px;
+}
+
+.cloud-1{
+  position: relative;
+  top: 2%;
+  left: 50%;
+}
+
+.cloud-2{
+  position: relative;
+  bottom: 10%;
+  right: 50%;
+}
+
+.mountain{
+    position:relative;
+    bottom: 8%;
+    left: 5%;
+    width: 500px;
+    top: -135.8;
+}
+
+.subHead{
+  font-size: 2rem;
+  font-weight: normal;
+  margin-top: 20px;
+  position: relative;
+  bottom: 50px;
+  z-index: 1;
+}
+.skill-img{
+  width: 280px;
+  border-radius: 10px;
+}
+
+
+/*************************************ID Selectors*************************************/
+
+#ProfilePic{
+  border-radius: 100%;
+}
+#skill-keyboard-img{
+  background-color: #ffabe1;
+  width: 250px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+#skill-pcb-img{
+  background-color: #318fb5;
+  width: 230px;
+  padding: 25px;
+}
